@@ -1,0 +1,19 @@
+node vs express :-> node is a main thing express ke code se hum server ka code likh pate hai or server kesa react krega wo bhi hum express ki help se kar sakte hai
+
+
+why express js :-> http is difficult to use or run a program ya write the program here express makaes code easier for the server
+routing :-> routes bnane ke process ko routing kahte hai jese /profile /home
+
+
+middleware :-> middleware ek aisa function hota hai jo routes se pahle chalta hai iska mtlb sare routes me koi bhi chale sbse pahle middleware chalta hai and usme likha code phle execute hota hai
+requesst and response :-> reeq me sara data hota hai aane wale user k req ki trf ka jese ki uski loc dev info and other thing 
+                          response me controls hote hai jinke basis pe hum server se hum rq bhej pate hai
+                          next is just a push so that reeq moves to the other thing which should be execute.
+
+
+
+   route parameters :-> to make any route dynamic you can use : [:username] at the palce where you can make it dynamaic and to access their values use [req.params]
+                like ::
+                         auathors/books/issued/harsh
+                         auathors/books/issued/harshita
+                         auathors/books/issued/harsha
