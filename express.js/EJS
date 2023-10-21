@@ -1,0 +1,22 @@
+ejs ssetup krne k liye
+-->ejs install
+    npm i ejs
+
+-->configure ejs
+    app.set("view engine", "ejs");
+
+-->ek views nam ka folder bnaye
+
+-->usme ejs files bnao
+
+-->send ki jgh render karo
+    **render krte waqt make sure aap views folder ke ander wali hi koi file ka namm likhe,
+      or usme ejs add na kaare ya render func me .ejs mention na kare
+
+
+
+
+
+
+      *website*
+       codepen demo modern design html css
